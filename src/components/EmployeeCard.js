@@ -19,7 +19,6 @@ function EmployeeCard({ image, name, surname, campus, dept, faculty, program, ti
             <td className="p-3 text-sm text-gray-700 whitespace-nowrap"><button onClick={() => window.location = `mailto:${email}`}><FontAwesomeIcon icon={faEnvelope} /></button> </td>
             <td className="p-3 text-sm text-gray-700 whitespace-nowrap">{title2}</td>
             <td className="p-3 text-sm text-gray-700 whitespace-nowrap">{name}</td>
-            <td className="p-3 text-sm text-gray-700 whitespace-nowrap">{surname}</td>
             <td className="p-3 text-sm text-gray-700 whitespace-nowrap">{title}</td>
             <td className="p-3 text-sm text-gray-700 whitespace-nowrap">{faculty}</td>
             <td className="p-3 text-sm text-gray-700 whitespace-nowrap">{dept}</td>

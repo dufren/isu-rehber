@@ -9,7 +9,6 @@ function EmployeeCardList({ data }) { // another fancy destructuring to avoid ty
                 key={employee.id}
                 image={employee.Foto}
                 name={employee.Ad}
-                surname={employee.Soyad}
                 campus={employee.Kampus}
                 dept={employee.Departman}
                 faculty={employee.Fakulte}
@@ -31,8 +30,7 @@ function EmployeeCardList({ data }) { // another fancy destructuring to avoid ty
                         <th className="p-3 text-sm font-semibold tracking-wide text-center">#</th>
                         <th className="p-3 text-sm font-semibold tracking-wide text-left">Mail</th>
                         <th className="p-3 text-sm font-semibold tracking-wide text-left">Ünvan</th>
-                        <th className="p-3 text-sm font-semibold tracking-wide text-left">Ad</th>
-                        <th className="p-3 text-sm font-semibold tracking-wide text-left">Soyad</th>
+                        <th className="p-3 text-sm font-semibold tracking-wide text-left">İsim</th>
                         <th className="p-3 text-sm font-semibold tracking-wide text-left">Kadro</th>
                         <th className="p-3 text-sm font-semibold tracking-wide text-left">Fakülte/Departman</th>
                         <th className="p-3 text-sm font-semibold tracking-wide text-left">Bölüm/Birim</th>

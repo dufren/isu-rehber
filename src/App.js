@@ -15,17 +15,13 @@ function App() {
 
     // the filteredEmployees variable only stores employee names that start with with the matching string you type
     const filteredEmployees = data.filter(employee => {
-        var name = employee.Ad + " " + employee.Soyad
-        return (    
-            name.toLowerCase().includes(searchTerm.toLowerCase())
-            || employee.Soyad.toLowerCase().includes(searchTerm.toLowerCase())
+        return (
+            employee.Ad.toLowerCase().includes(searchTerm.toLowerCase())
             || employee.Fakulte.toLowerCase().includes(searchTerm.toLowerCase())
             || employee.Departman.toLowerCase().includes(searchTerm.toLowerCase())
             || employee.Program.toLowerCase().includes(searchTerm.toLowerCase())
             || employee.Kampus.toLowerCase().includes(searchTerm.toLowerCase())
-            
         )
-
     });
     return (
         <div>
